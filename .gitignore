@@ -3,6 +3,7 @@
 
 # for intelji idea
 .idea
+out
 
 # Log file
 *.log
