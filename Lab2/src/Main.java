@@ -20,7 +20,9 @@ public class Main {
 
             result.append(c);
         }
-
+        if (lastDigitIndex == -1){
+            System.out.println("The str doesn`t contain any numbers");
+        }
         return result.toString();
     }
 
