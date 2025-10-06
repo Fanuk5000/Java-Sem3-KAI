@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+output.txt
 
 # for intelji idea
 .idea
