@@ -8,14 +8,12 @@ class LowerCaseStringsTest {
     void sort() {
         LowerCaseStrings lower = new LowerCaseStrings("abcXYZ");
         String result = lower.sort();
-        // перетворюється в "abcxyz" → сортування за спаданням → zyxcba
         assertEquals("zyxcba", result);
     }
 
     @Test
     void sortMixedCase() {
-        LowerCaseStrings lower = new LowerCaseStrings("ZzAa");
-        // "ZzAa" -> "zzaa" -> сортування за спаданням → zzaa
+        LowerCaseStrings lower = new LowerCaseStrings("ZAza");
         assertEquals("zzaa", lower.sort());
     }
 
